@@ -1,0 +1,8 @@
+package eu.thechest.chestapi.game;
+
+/**
+ * Created by zeryt on 28.04.2017.
+ */
+public enum GameEventType {
+    PLAYER_CHAT,SPECTATOR_CHAT,PLAYER_DEATH,PLAYER_KILL,SOCCER_GOAL,SOCCER_GOAL_BY_PLAYER,WORD_GUESSED,TOBIKO_HIT,TOBIKO_WIN,TOBIKO_LOSE,MG_GUESS_SONG
+}

@@ -1,0 +1,70 @@
+name: ChestAPI
+authors: [Zeryther]
+website: https://thechest.eu
+version: 1.0
+main: eu.thechest.chestapi.ChestAPI
+softdepend: [HolographicDisplays]
+
+commands:
+  fly:
+    description: Toggle fly mode
+    aliases: [togglefly]
+  coins:
+    description: View coins balance
+  gamemode:
+    description: Change a players gamemode
+    aliases: [gm]
+  clearchat:
+    description: Clear the chat
+    aliases: [cc,ccleaner]
+  skull:
+    description: Give youself a player skull
+    aliases: [head,playerhead]
+  getpos:
+    description: Current location
+  blockloc:
+    description: Give blockloc staff
+  langdump:
+    description: Language dump
+  nick:
+    description: YouTuber nick
+    aliases: [name]
+  nicklist:
+    description: YouTuber nick list
+  register:
+    description: Register on the forums
+  addmaplocation:
+    description: Add map location
+  ratemap:
+    description: rate map
+  giverandomchest:
+    description: give random chest
+  memory:
+    description: view memory info
+    aliases: [ram]
+  vanish:
+    description: vanish
+    aliases: [v]
+  smite:
+    description: smite
+    aliases: [thor]
+  switch:
+    description: switch
+  vote:
+    description: vote
+  bungeecmd:
+    description: bungeecmd
+  swing:
+    description: swing
+  victoryeffect:
+    description: victoryeffect
+  punish:
+    description: punish
+    aliases: [ban,mute,kick]
+  aacremovalnotice:
+    description: aacremovalnotice
+  mbchat:
+    description: mbchat
+  fix:
+    description: fix
+    aliases: [fixplayer]
